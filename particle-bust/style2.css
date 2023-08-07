@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.particle-burst-button {
+    position: relative;
+    border: none;
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .particle-burst-button:hover {
+    animation: particle-burst 1s forwards;
+  }
+  
+  @keyframes particle-burst {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(2);
+    }
+  }
+  

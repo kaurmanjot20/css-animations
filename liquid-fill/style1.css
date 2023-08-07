@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.liquid-fill-button {
+    position: relative;
+    overflow: hidden;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .liquid-fill-button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #2980b9;
+    transition: height 0.3s ease-in-out;
+  }
+  
+  .liquid-fill-button:hover:before {
+    height: 100%;
+  }
+  
