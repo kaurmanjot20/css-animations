@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+button {
+    background-color: rgb(242, 186, 32);
+    width: 12rem;
+    height: 4rem;
+    font-size: 1rem;
+    transition: font-size 0.5s ease-in-out;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 40px;
+    text-transform: uppercase;
+    border: none;
+    outline: calc(12rem/2) solid #0009;
+    outline-offset: calc(12rem/-2);
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    outline: 8px solid rgb(242, 186, 32);
+    outline-offset: 14px;
+    font-size: 1.5rem;
+}
