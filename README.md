@@ -1,4 +1,4 @@
-##css-animations
+## css-animations
 
 (work-in-progress🙃)
 
